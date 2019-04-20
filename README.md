@@ -1,4 +1,7 @@
-# [Bedrock](https://roots.io/bedrock/)
+# WPBase
+Based on Bedrock with UE Modifications (and Name-Schemas)
+
+
 [![Packagist](https://img.shields.io/packagist/v/roots/bedrock.svg?style=flat-square)](https://packagist.org/packages/roots/bedrock)
 [![Build Status](https://img.shields.io/travis/roots/bedrock.svg?style=flat-square)](https://travis-ci.org/roots/bedrock)
 
@@ -24,7 +27,7 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 
 1. Create a new project:
     ```sh
-    $ composer create-project roots/bedrock
+    $ composer create-project ueeng/wpbase
     ```
 2. Update environment variables in the `.env` file:
   * Database variables
