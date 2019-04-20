@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "299747bb5bf6d997eddf0b356e6b315b",
-    "content-hash": "8df7a00b754089c695b986241c9fe788",
+    "hash": "3aa10fb464f5814094e1a1d719b96c83",
+    "content-hash": "453f821c0405c2a241541d5e9107bccb",
     "packages": [
         {
             "name": "composer/installers",
@@ -470,6 +470,33 @@
                 "portable"
             ],
             "time": "2019-02-06 07:57:58"
+        },
+        {
+            "name": "ueeng/ue-perfmatters",
+            "version": "v1.3.5",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:ueeng/ue-perfmatters.git",
+                "reference": "bd971a43131c7b9ff38f75ed52db4e789a2d35a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ueeng/ue-perfmatters/zipball/bd971a43131c7b9ff38f75ed52db4e789a2d35a4",
+                "reference": "bd971a43131c7b9ff38f75ed52db4e789a2d35a4",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Stefanie Hetjens",
+                    "email": "stefanie@hetjens.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/ueeng/ue-perfmatters/tree/v1.3.5",
+                "issues": "https://github.com/ueeng/ue-perfmatters/issues"
+            },
+            "time": "2019-04-20 12:20:53"
         },
         {
             "name": "vlucas/phpdotenv",
