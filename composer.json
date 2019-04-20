@@ -35,7 +35,7 @@
     },
     {
       "type": "composer",
-      "url": "http://repo.ueeng.com"
+      "url": "https://repo.ueeng.com"
     }
   ],
   "require": {
