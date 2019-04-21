@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3aa10fb464f5814094e1a1d719b96c83",
-    "content-hash": "453f821c0405c2a241541d5e9107bccb",
+    "hash": "a0e4f73d6c2d3d436a755555bbdb8997",
+    "content-hash": "3534dfb15d1a9e1fe6cf55ab045b80ce",
     "packages": [
         {
             "name": "composer/installers",
@@ -473,17 +473,17 @@
         },
         {
             "name": "ueeng/ue-perfmatters",
-            "version": "v1.3.5",
+            "version": "v1.3.5.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ueeng/ue-perfmatters.git",
                 "reference": "bd971a43131c7b9ff38f75ed52db4e789a2d35a4"
             },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ueeng/ue-perfmatters/zipball/bd971a43131c7b9ff38f75ed52db4e789a2d35a4",
+                "type": "tar",
+                "url": "https://repo.ueeng.com/dist/ueeng/ue-perfmatters/ueeng-ue-perfmatters-bd971a43131c7b9ff38f75ed52db4e789a2d35a4-zip-02c882.tar",
                 "reference": "bd971a43131c7b9ff38f75ed52db4e789a2d35a4",
-                "shasum": ""
+                "shasum": "c71b7ebee5899b4ab78f69b2a4c557aec308543b"
             },
             "type": "wordpress-plugin",
             "authors": [
