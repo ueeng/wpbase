@@ -82,8 +82,6 @@
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
     "wordpress-install-dir": "web/wp",
-    "wordpress-languages": [ "en_US", "de_DE", "de_CH", "fr_FR", "it_IT" ],
-    "wordpress-language-dir": "web/app/wp-content/languages"
   },
   "scripts": {
     "post-root-package-install": [
