@@ -1,12 +1,50 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "a0e4f73d6c2d3d436a755555bbdb8997",
-    "content-hash": "3534dfb15d1a9e1fe6cf55ab045b80ce",
+    "content-hash": "86834125fa670c8d18a8f7ce3f908e0f",
     "packages": [
+        {
+            "name": "bjornjohansen/wplang",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bjornjohansen/wplang.git",
+                "reference": "3194a2a774b53a2622a7ac6bc20c44b04cb254a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bjornjohansen/wplang/zipball/3194a2a774b53a2622a7ac6bc20c44b04cb254a2",
+                "reference": "3194a2a774b53a2622a7ac6bc20c44b04cb254a2",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "BJ\\Wplang\\Wplang"
+            },
+            "autoload": {
+                "psr-4": {
+                    "BJ\\Wplang\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Bjørn Johansen",
+                    "email": "post@bjornjohansen.no"
+                }
+            ],
+            "description": "Composer plugin to download translation files from wordpress.org",
+            "time": "2019-04-03T08:08:14+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v1.6.0",
@@ -125,7 +163,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2018-08-27 06:10:37"
+            "time": "2018-08-27T06:10:37+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -168,7 +206,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2019-04-03 18:28:43"
+            "time": "2019-04-03T18:28:43+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -218,7 +256,7 @@
                 "php",
                 "type"
             ],
-            "time": "2015-07-25 16:39:46"
+            "time": "2015-07-25T16:39:46+00:00"
         },
         {
             "name": "roots/wordpress",
@@ -231,8 +269,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.1.1",
-                "reference": null,
-                "shasum": null
+                "reference": "5.1.1"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -256,7 +293,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2019-03-13 14:18:06"
+            "time": "2019-03-13T14:18:06+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -312,7 +349,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-12-10 00:22:15"
+            "time": "2018-12-10T00:22:15+00:00"
         },
         {
             "name": "roots/wp-config",
@@ -354,7 +391,7 @@
                 }
             ],
             "description": "Collect configuration values and safely define() them",
-            "time": "2018-08-10 14:18:38"
+            "time": "2018-08-10T14:18:38+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -411,7 +448,7 @@
             "keywords": [
                 "wordpress wp bcrypt password"
             ],
-            "time": "2016-03-01 16:27:06"
+            "time": "2016-03-01T16:27:06+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -469,21 +506,21 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2019-02-06 07:57:58"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "ueeng/ue-perfmatters",
-            "version": "v1.3.5.1",
+            "version": "v1.3.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ueeng/ue-perfmatters.git",
-                "reference": "bd971a43131c7b9ff38f75ed52db4e789a2d35a4"
+                "reference": "0d9da86080fc2baade0a54233270bccf74b9e3cc"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://repo.ueeng.com/dist/ueeng/ue-perfmatters/ueeng-ue-perfmatters-bd971a43131c7b9ff38f75ed52db4e789a2d35a4-zip-02c882.tar",
-                "reference": "bd971a43131c7b9ff38f75ed52db4e789a2d35a4",
-                "shasum": "c71b7ebee5899b4ab78f69b2a4c557aec308543b"
+                "url": "https://repo.ueeng.com/dist/ueeng/ue-perfmatters/ueeng-ue-perfmatters-0d9da86080fc2baade0a54233270bccf74b9e3cc-zip-4416e1.tar",
+                "reference": "0d9da86080fc2baade0a54233270bccf74b9e3cc",
+                "shasum": "e568c13a0b9a1e2fe251668a41af89a6539ebb69"
             },
             "type": "wordpress-plugin",
             "authors": [
@@ -493,10 +530,10 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/ueeng/ue-perfmatters/tree/v1.3.5",
+                "source": "https://github.com/ueeng/ue-perfmatters/tree/v1.3.6",
                 "issues": "https://github.com/ueeng/ue-perfmatters/issues"
             },
-            "time": "2019-04-20 12:20:53"
+            "time": "2019-04-23T11:37:04+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -548,7 +585,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2019-03-06 09:39:45"
+            "time": "2019-03-06T09:39:45+00:00"
         },
         {
             "name": "wpackagist-plugin/advanced-gutenberg",
@@ -560,9 +597,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.1.10.9.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.1.10.9.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -580,15 +615,31 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autodescription.3.2.4.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/autodescription.3.2.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/autodescription/"
+        },
+        {
+            "name": "wpackagist-plugin/clean-image-filenames",
+            "version": "1.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/clean-image-filenames/",
+                "reference": "tags/1.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/clean-image-filenames.1.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/clean-image-filenames/"
         },
         {
             "name": "wpackagist-plugin/duplicate-post",
@@ -600,9 +651,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -620,9 +669,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/imagify.1.8.4.1.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/imagify.1.8.4.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -640,9 +687,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.7.4.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.7.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -660,9 +705,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-google-tag-manager.1.0.5.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/simple-google-tag-manager.1.0.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -680,15 +723,31 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-page-ordering.2.3.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/simple-page-ordering.2.3.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/simple-page-ordering/"
+        },
+        {
+            "name": "wpackagist-plugin/slim-maintenance-mode",
+            "version": "1.3.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/slim-maintenance-mode/",
+                "reference": "tags/1.3.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/slim-maintenance-mode.1.3.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/slim-maintenance-mode/"
         }
     ],
     "packages-dev": [
@@ -895,7 +954,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2019-04-20 06:58:11"
+            "time": "2019-04-20T06:58:11+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -946,7 +1005,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2019-04-10 23:49:02"
+            "time": "2019-04-10T23:49:02+00:00"
         }
     ],
     "aliases": [],
